@@ -1,7 +1,6 @@
 class Cerebrumma < Formula
   desc "Portable, git-tracked AI Brain for developers"
   homepage "https://www.cerebrumma.com"
-  version "0.1.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
