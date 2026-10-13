@@ -5,19 +5,19 @@ class Cerebrumma < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-aarch64-apple-darwin.tar.gz"
-      sha256 "294fccc810a4b370633d8f526b649de89f66aa7f855b85e42a2a74dcfec73819"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.4/cerebrum-aarch64-apple-darwin.tar.gz"
+      sha256 "bbf6ef76c9816fcd3381cd96dcbeeac56e44741858f65264347145647075daad"
     end
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-x86_64-apple-darwin.tar.gz"
-      sha256 "726c00638c0723a6a18cad483fe7c27ab16ff867d2537f5ceb2b337ed8375724"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.4/cerebrum-x86_64-apple-darwin.tar.gz"
+      sha256 "872d9e6ad7cc64a3a61ebcdfa0cf61c083afec8a82f0a5f42261c3d62912721c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "813b23bd185cc2861192210f6c9ed2707a9be308505e9c6817263e80afdf3fe4"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.4/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d5455628cf7d558a5470b90bb007e3e49d7c1d12867b2e55b5a468899cc4a591"
     end
   end
 
@@ -35,8 +35,8 @@ class Cerebrumma < Formula
         cerebrum map --graph
 
       To wire the Brain into Claude Code via MCP, run:
-        curl -fsSL https://get.cerebrumma.com | sh
-      (installs the optional Python MCP server + auto-configures Claude Code)
+        curl -fsSL https://get.cerebrumma.com | sh -s -- --mcp-only
+      (adds the Python MCP server + Claude Code config; keeps this brew binary)
     EOS
   end
 
