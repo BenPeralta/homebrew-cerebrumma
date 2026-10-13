@@ -5,19 +5,19 @@ class Cerebrumma < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.2/cerebrum-aarch64-apple-darwin.tar.gz"
-      sha256 "cfeb3dcf6c54b04dcb0ee8640ae94fb503954ada7aa89cd01e4bf2fb89c1901e"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-aarch64-apple-darwin.tar.gz"
+      sha256 "294fccc810a4b370633d8f526b649de89f66aa7f855b85e42a2a74dcfec73819"
     end
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.2/cerebrum-x86_64-apple-darwin.tar.gz"
-      sha256 "7d245025c7a4e5e539f06d5644f041bec5da5b7e50f780076ea6819218814500"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-x86_64-apple-darwin.tar.gz"
+      sha256 "726c00638c0723a6a18cad483fe7c27ab16ff867d2537f5ceb2b337ed8375724"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.2/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "170b8b96428d9809cc01c8e03a0f5e00fb6bbdf6114c81c68beaaba6c72a44bf"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.3/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "813b23bd185cc2861192210f6c9ed2707a9be308505e9c6817263e80afdf3fe4"
     end
   end
 
