@@ -1,23 +1,23 @@
 class Cerebrumma < Formula
-  desc "Portable, git-tracked AI Brain for developers"
+  desc "Portable, git-tracked memory and governance for AI agents"
   homepage "https://www.cerebrumma.com"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.1.4/cerebrum-aarch64-apple-darwin.tar.gz"
-      sha256 "4357ba8c9200b252e873bbf63229a105cf74d37fa7751ee1f28e2343195113dc"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.1/cerebrum-aarch64-apple-darwin.tar.gz"
+      sha256 "28ca9a75a60c51b6ee9de4527870d779c41345fbcbe55611ad530ba7a3dd5844"
     end
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.1.4/cerebrum-x86_64-apple-darwin.tar.gz"
-      sha256 "a7532d0a0d10f1ead504953f96159a8a3de9d0a961fe78bc9966fa2f08a13c13"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.1/cerebrum-x86_64-apple-darwin.tar.gz"
+      sha256 "8c11dae9d03f7a2d1908f6428d9a90900672ea129555906f93bec788d198305b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.1.4/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "647dfd304a6063c063d746361f9db22ed116f75f3b3d465564e54ab48084cdd2"
+      url "https://github.com/BenPeralta/cerebrumma/releases/download/v0.2.1/cerebrum-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "461cb2ed321d1025065d4533a1f60a7d9533fe28d64f673a574845e9b11a54db"
     end
   end
 
